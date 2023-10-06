@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Montserrat&family=Play&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: visible;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav{
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: large;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+.stack1{
+    margin-right: 800px;
+    width: 500px;
+    display: flex ;
+    justify-content: space-evenly;
+}
+
+.stack1 a{
+    margin-top: 7px;
+}
+.stack2{
+    margin-left: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.stack2 img{
+    margin-top: 4px;
+    height: 22px;
+}
+
+/* header */
+.header{
+    width: 100%;
+    height: 1000px;
+    background: url(assets/Title-Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* main */
+.main{
+    color: white;
+    
+        margin-top: 400px;
+        margin-left: 75px;
+}
+
+.logodiv{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.logodiv h3{
+    font-size: 25px;
+    margin-left: 20px;
+    letter-spacing:20px;
+}
+.main h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200px;
+}
+
+.main button{
+    margin-left: 10px;
+    padding:10px 20px ;
+    font-size: 28px;
+    border-radius:5px ;
+    border-color: transparent;
+}
+
+
+.button2{
+    background-color:rgb(140, 141, 144);
+    color: white;
+    opacity: 0.7;
+}
+
+
+.movielist{
+    margin-top: -20px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    flex-wrap: wrap;
+    
+    display: flex
+}
+
+.header span{
+    color: white;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin-left:85px ;
+}
+.header span h3{
+
+    margin-right: 10px;
+}
+
+.moviestack1{
+    width: 100%;
+    margin-top: -62px;
+    margin-left:-210px ;
+    padding-left: 235px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.moviestack1 img{
+    width: 400px;
+    border-radius: 10px;
+    margin-right: -80px;
+}
+
+
+/* Top Movies */
+.top10{
+    padding-top: 50px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    
+}
+.top10 span{
+    display: flex;
+    margin-left: 80px;
+}
+.top10 span img{
+    margin-left:20px ;
+}
+.topmoviesdiv{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.topmovies{
+    width: 350px;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    margin-right: -40px;
+}
+
+.topmovies img{
+    height: 190px;
+    border-radius: 5px;
+    margin-left: -5px;
+}
+/* Trending Movies */
+.trendingnow{
+    padding-top: 30px;
+    padding-left: 180px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+.trendingnow span{
+    color: white;
+    display: flex;
+    margin-left: -100px;
+}
+
+.moviestack2{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: -200px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    
+}
+.moviestack2 img{
+    width: 400px;
+    border-radius: 10px;
+    margin-right: -100px;
+    margin-left: 30px;
+}
+
+
+/* Sci-fi */
+
+.scifi{
+    padding-top: 30px;
+    padding-left:180px ;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+
+.scifi span {
+    display: flex;
+    margin-left:-100px ;    
+}
+
+
+/* Footer */
+footer{
+    padding-top: 30px;
+    line-height: 200%;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: 1px;
+    padding-left: 10px;
+    color: grey;
+    justify-content: space-evenly;
+}
+/* Footer Button */
+.foobutton{
+    border-radius: 5px;
+    border: solid;
+    border-color: gray;
+    color: grey;
+    background-color: transparent;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.fostack1{
+    display: flex;
+    margin-left: 9.5%;
+    width: 200px;
+    justify-content: space-evenly;
+}
+.fostack1 img{
+
+    margin-top: 50px;
+    filter: invert(1);
+}
+.copyright{
+    width: 100%;
+    padding-top: 15px;
+    font-size: 10px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    background-color: rgb(20, 20, 20);
+}
+
+.fostack2{
+    margin-left: 4%;;
+}
+.copyright p{
+    margin-left:18.5%;
+
+}
+
+    
+
+
+/* Mobile Responsive */
+
+@media  (max-width:393px) {
+
+    *{
+        font-size: 12px;
+    }
+body{
+    width: 393px;
+}
+
+    /* Header */
+    .header {
+            padding-top: 10px;
+            width: 393px;
+            height: 500px;
+            background: url(assets/Title-Image.png);
+            display: flex;
+            background-repeat: no-repeat;
+            background-size: 100% 500px;
+            
+        }
+    
+    nav {
+            color: rgb(0, 0, 0);
+            width: 393px;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: medium;
+            background-color: transparent;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            padding-right: 10px;
+            
+        }
+
+                .stack1 {
+                    width: 350px;
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-left: 30px;
+                    
+                }
+        
+                .stack1 a {
+                    margin-top: 7px;
+                    font-size: 15px;
+                }
+        
+                .stack2 {
+                    width: 150px;
+                    margin-top: 10px;
+                    margin-left:130px;
+                    display: none;
+                    justify-content: space-evenly;
+                }
+        
+                .stack1 img{
+                    margin-top: 5px;
+                    margin-left: -25px;
+                    height:20px ;
+                    width: 45px;
+                    
+                }
+                .stack2 img {
+                    margin-top: 4px;
+                    height: 13px;
+                }
+
+                /* Main div */
+        .main {
+            margin-left: -300px;
+            margin-top: 140px;
+            color: white;
+        
+
+            
+        }
+        .main h1{
+            font-size :80px;
+            padding-top: 20px;
+            margin-left: -80px;
+        }
+            
+        
+        .main h3{
+            font-size: 15px;
+            letter-spacing: 10px;
+        }
+        .logodiv{
+            margin-left:-80px;
+            
+        }
+        .logodiv img{
+            height: 34px;
+        }
+
+        .main .button1{
+            margin-top:10px ;
+            margin-left: -80px;
+            font-size: 10px;
+            width: 80px;
+            padding: 10px 0s;
+        }
+
+        button img{
+            width: 10px;
+        }
+        .main .button2{
+            margin-top:10px ;
+            font-size: 10px;
+            width: 100px;
+            padding: 10px 0px;
+        }
+
+        #addbutton{
+            position: relative;
+            margin-left: 250px !important;
+        }
+
+        .header span{
+    color: white;
+    position: relative;
+    margin-left: -355px;
+    margin-top: 250px;
+    font-size: 20px;
+    align-items: center;
+}
+    .header span img{
+        height: 12px;
+}
+
+        /* Movie Stack */
+    .movielist{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .moviestack1{
+        margin-left: -230px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .moviestack1 img {
+            width: 400px;
+            border-radius: 10px;
+            padding: 20px;
+            margin-right: -80px;
+        }
+
+    
+    .moviestack2{
+        margin-left: -210px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .moviestack2 img {
+            width: 400px;
+            border-radius: 10px;
+            padding: 20px;
+    
+        }
+
+    #movie6{
+        display:none;
+    }
+
+    /* Footer */
+    .fostack1{
+        width: 100%;
+        padding: 10px ;
+        margin-left: -80px;
+    
+    }
+
+    .fostack1 img{
+        padding: 0px 30px;
+    }
+
+    .fostack2{
+        margin-left: 10px;
+    }
+
+    footer{
+        padding: 0px 30px;
+    }
+
+    
+
+}
